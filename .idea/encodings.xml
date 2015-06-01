@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/xmind/core/const.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xmind/core/loader.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xmind/core/markerref.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xmind/core/mixin.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xmind/core/notes.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xmind/core/position.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xmind/core/relationship.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xmind/core/saver.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xmind/core/sheet.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xmind/core/title.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xmind/core/topic.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xmind/core/utils.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xmind/core/workbook.py" charset="UTF-8" />
+  </component>
+</project>
