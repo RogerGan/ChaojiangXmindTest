@@ -8,6 +8,7 @@ import unittest
 from random import randint
 from appium import webdriver
 from time import sleep
+import device_info
 
 class SimpleIOSTests(unittest.TestCase):
 
@@ -16,8 +17,8 @@ class SimpleIOSTests(unittest.TestCase):
         self.driver = webdriver.Remote(
             command_executor='http://127.0.0.1:4723/wd/hub',
             desired_capabilities={
-                    "bundleId" : "ninegame.ucweb.iphone",
-                    "udid" : "e25a0119877c106940688a647ff3d070678c856d",
+                    "bundleId" : "cn.ninegame.gamemanager",
+                    "udid" : "{}".format(device_info.device_udid),
                     "deviceName" : "iphone",
                     "platformName" : "iOS",
                     "platformVersion" : "7.1",
@@ -29,7 +30,7 @@ class SimpleIOSTests(unittest.TestCase):
 
     def test_scroll(self):
         print ''
-        self.driver.tap()
+        # self.driver.tap()
         self.driver.find_element_by_name(u'发现').click()
         sleep(3)
 

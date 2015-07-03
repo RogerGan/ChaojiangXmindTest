@@ -2,23 +2,28 @@
 
 __author__ = 'gancj'
 
+__weibo__= 'http://weibo.com/ganchaojiang'
+
 __data__ = '2015-05-23 12:06'
 
 from appium import webdriver
 import anaysisXmind
 import xmind
-from time import sleep
-import device_info
-import string
-import ActionDo
+import logging
 
-res = xmind.load("test2.xmind")
+import device_info
+import ActionDo
+import BaseTools.util
+
+inputxmindfile = BaseTools.util.anaysisIniFile('config.ini', 'xmind_args', 'inputxmindfile')
+logging.warning(inputxmindfile)
+res = xmind.load(inputxmindfile)
 
 driver = webdriver.Remote(
     command_executor='http://127.0.0.1:4723/wd/hub',
     desired_capabilities={
-            "bundleId" : "ninegame.ucweb.iphone",
-            "udid" : "9eef767be4750283f20069295e839abfb0321444",
+            "bundleId" : "cn.ninegame.gamemanager",
+            "udid" : "{}".format(device_info.device_udid),
             "deviceName" : "gancj",
             "platformName" : "iOS",
             "platformVersion" : "8.3",
@@ -32,35 +37,34 @@ def tearDown():
 
 def testAction():
     result_dict = {}
-    #用例个数
-    num = anaysisXmind.get_LSubTopics(res.getSheets()[2].getRootTopic()).__len__()
-    print num
+    #第一张表的用例个数
+    num = anaysisXmind.get_LSubTopics(res.getSheets()[0].getRootTopic()).__len__()
+    logging.info('测试用例个数:{}'.format(num))
     ad = ActionDo.ActionDo(driver)
 
     for i in xrange(num):
-        actions = anaysisXmind.get_testcase("test2.xmind", 2, i)
-        print 'actions', actions
+        actions = anaysisXmind.get_testcase("test2.xmind", 0, i)
+        logging.info('actions'.format(actions))
         for action in actions:
             doaction = action.split(':')[0]
             result = getattr(ad, doaction, 'Error! para Error')(action)
 
             if result != 1 and result != 0: #不是结果检查的问题
-                print 'Action do Error'
+                logging.warning('Action do Error')
                 break
 
         if result == 1:
-            print 'add Check Pass Marker'
+            logging.info('add Check Pass Marker')
             result_dict[i] = 1
         elif result == 0:
-            print 'add Check Fail Marker'
+            logging.info('add Check Fail Marker')
             result_dict[i] = 0
         elif result == 2:
-            print 'add Action Fail Marker'
+            logging.info('add Action Fail Marker')
             result_dict[i] = 2
 
     return result_dict
 
 if __name__ == "__main__":
-    print testAction()
+    logging.info(testAction())
     tearDown()
-    print ''

@@ -1,0 +1,82 @@
+Fri, 03 Jul 2015 15:10:47 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/e8b75911-2370-4be5-8b4c-baf1ac886693/element {"using": "name", "sessionId": "e8b75911-2370-4be5-8b4c-baf1ac886693", "value": "\u70ed\u70b9"}
+Fri, 03 Jul 2015 15:10:48 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:10:48 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/e8b75911-2370-4be5-8b4c-baf1ac886693/element/0/click {"sessionId": "e8b75911-2370-4be5-8b4c-baf1ac886693", "id": "0"}
+Fri, 03 Jul 2015 15:10:49 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:10:49 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/e8b75911-2370-4be5-8b4c-baf1ac886693/element {"using": "name", "sessionId": "e8b75911-2370-4be5-8b4c-baf1ac886693", "value": "\u53d1\u73b0"}
+Fri, 03 Jul 2015 15:10:50 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:10:50 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/e8b75911-2370-4be5-8b4c-baf1ac886693/element {"using": "name", "sessionId": "e8b75911-2370-4be5-8b4c-baf1ac886693", "value": "\u6d88\u606f"}
+Fri, 03 Jul 2015 15:10:52 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:10:52 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/e8b75911-2370-4be5-8b4c-baf1ac886693/element {"using": "name", "sessionId": "e8b75911-2370-4be5-8b4c-baf1ac886693", "value": "\u53d1\u73b0"}
+Fri, 03 Jul 2015 15:10:53 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:10:53 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/e8b75911-2370-4be5-8b4c-baf1ac886693/element {"using": "name", "sessionId": "e8b75911-2370-4be5-8b4c-baf1ac886693", "value": "\u53d1\u73b0"}
+Fri, 03 Jul 2015 15:10:55 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:10:55 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/e8b75911-2370-4be5-8b4c-baf1ac886693/element {"using": "name", "sessionId": "e8b75911-2370-4be5-8b4c-baf1ac886693", "value": "\u53d1\u73b02"}
+Fri, 03 Jul 2015 15:10:56 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:10:56 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/e8b75911-2370-4be5-8b4c-baf1ac886693/element {"using": "name", "sessionId": "e8b75911-2370-4be5-8b4c-baf1ac886693", "value": "\u53d1\u73b02"}
+Fri, 03 Jul 2015 15:10:57 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:10:57 remote_connection.py[line:363] DEBUG DELETE http://127.0.0.1:4723/wd/hub/session/e8b75911-2370-4be5-8b4c-baf1ac886693 {"sessionId": "e8b75911-2370-4be5-8b4c-baf1ac886693"}
+Fri, 03 Jul 2015 15:10:58 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:10:58 start.py[line:51] INFO 0 actions fail
+Fri, 03 Jul 2015 15:10:58 start.py[line:51] INFO 1 actions fail
+Fri, 03 Jul 2015 15:10:58 start.py[line:51] INFO 2 actions fail
+Fri, 03 Jul 2015 15:10:58 start.py[line:51] INFO 3 actions fail
+Fri, 03 Jul 2015 15:10:58 start.py[line:51] INFO 4 actions fail
+Fri, 03 Jul 2015 15:10:58 start.py[line:51] INFO 5 actions fail
+Fri, 03 Jul 2015 15:12:22 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/efd7b6f4-a9be-445d-bce3-8a5c33342862/element {"using": "name", "sessionId": "efd7b6f4-a9be-445d-bce3-8a5c33342862", "value": "MainTab.HotspotButton"}
+Fri, 03 Jul 2015 15:12:23 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:12:23 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/efd7b6f4-a9be-445d-bce3-8a5c33342862/element/0/click {"sessionId": "efd7b6f4-a9be-445d-bce3-8a5c33342862", "id": "0"}
+Fri, 03 Jul 2015 15:12:24 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:12:24 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/efd7b6f4-a9be-445d-bce3-8a5c33342862/element {"using": "name", "sessionId": "efd7b6f4-a9be-445d-bce3-8a5c33342862", "value": "\u53d1\u73b0"}
+Fri, 03 Jul 2015 15:12:25 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:12:25 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/efd7b6f4-a9be-445d-bce3-8a5c33342862/element {"using": "name", "sessionId": "efd7b6f4-a9be-445d-bce3-8a5c33342862", "value": "MainTab.AccountButton"}
+Fri, 03 Jul 2015 15:12:27 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:12:27 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/efd7b6f4-a9be-445d-bce3-8a5c33342862/element/1/click {"sessionId": "efd7b6f4-a9be-445d-bce3-8a5c33342862", "id": "1"}
+Fri, 03 Jul 2015 15:12:28 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:30 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element {"using": "name", "sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "value": "MainTab.HotspotButton"}
+Fri, 03 Jul 2015 15:14:31 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:31 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element/0/click {"sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "id": "0"}
+Fri, 03 Jul 2015 15:14:32 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:32 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element {"using": "name", "sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "value": "\u53d1\u73b0"}
+Fri, 03 Jul 2015 15:14:33 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:33 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element {"using": "name", "sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "value": "MainTab.AccountButton"}
+Fri, 03 Jul 2015 15:14:35 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:35 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element/1/click {"sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "id": "1"}
+Fri, 03 Jul 2015 15:14:36 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:36 ActionDo.py[line:106] INFO action====== Check  我
+Fri, 03 Jul 2015 15:14:36 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element {"using": "name", "sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "value": "\u6211"}
+Fri, 03 Jul 2015 15:14:37 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:37 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element {"using": "name", "sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "value": "MainTab.DiscoveryButton"}
+Fri, 03 Jul 2015 15:14:39 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:39 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element/3/click {"sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "id": "3"}
+Fri, 03 Jul 2015 15:14:40 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:40 ActionDo.py[line:106] INFO action====== Check  我
+Fri, 03 Jul 2015 15:14:40 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element {"using": "name", "sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "value": "\u6211"}
+Fri, 03 Jul 2015 15:14:41 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:41 ActionDo.py[line:111] WARNING Can't find
+Fri, 03 Jul 2015 15:14:41 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element {"using": "name", "sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "value": "MainTab.DiscoveryButton"}
+Fri, 03 Jul 2015 15:14:42 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:42 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element/4/click {"sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "id": "4"}
+Fri, 03 Jul 2015 15:14:43 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:43 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element {"using": "name", "sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "value": "\u6d88\u606f"}
+Fri, 03 Jul 2015 15:14:45 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:45 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element {"using": "name", "sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "value": "MainTab.AccountButton"}
+Fri, 03 Jul 2015 15:14:46 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:46 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element/5/click {"sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "id": "5"}
+Fri, 03 Jul 2015 15:14:47 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:47 ActionDo.py[line:106] INFO action====== Check  我
+Fri, 03 Jul 2015 15:14:47 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element {"using": "name", "sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "value": "\u6211"}
+Fri, 03 Jul 2015 15:14:48 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:48 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element {"using": "name", "sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "value": "MainTab.AccountButton"}
+Fri, 03 Jul 2015 15:14:50 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:50 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element/7/click {"sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "id": "7"}
+Fri, 03 Jul 2015 15:14:51 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:51 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16/element {"using": "name", "sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16", "value": "\u6d88\u606f"}
+Fri, 03 Jul 2015 15:14:52 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:52 remote_connection.py[line:363] DEBUG DELETE http://127.0.0.1:4723/wd/hub/session/745ac81d-254c-4563-a800-5aaeac4f9a16 {"sessionId": "745ac81d-254c-4563-a800-5aaeac4f9a16"}
+Fri, 03 Jul 2015 15:14:53 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 15:14:53 start.py[line:51] INFO 0 actions fail
+Fri, 03 Jul 2015 15:14:53 start.py[line:46] INFO 1 is pass，Laugh
+Fri, 03 Jul 2015 15:14:53 start.py[line:48] INFO 2 is fail, Cry
+Fri, 03 Jul 2015 15:14:53 start.py[line:51] INFO 3 actions fail
+Fri, 03 Jul 2015 15:14:53 start.py[line:46] INFO 4 is pass，Laugh
+Fri, 03 Jul 2015 15:14:53 start.py[line:51] INFO 5 actions fail

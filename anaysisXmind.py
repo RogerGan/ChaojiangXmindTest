@@ -3,11 +3,9 @@
 __author__ = 'gancj'
 
 __data__ = '2015-05-23 11:37'
+
 import xmind
-from xmind.core import workbook,saver
-from xmind.core.topic import TopicElement
-
-
+import logging
 
 LSubTopics = []  #终点节点
 getParentTopicByID_Dic = {}
@@ -54,10 +52,8 @@ def get_testcase(xmindfile, sheet, index):
     return testcase
 
 if __name__ == "__main__":
-    print get_LSubTopics(xmind.load("test2.xmind").getSheets()[2].getRootTopic())
-    print get_testcase("test2.xmind", 2, 0)
-
-
+    get_LSubTopics(xmind.load("test2.xmind").getSheets()[2].getRootTopic())
+    logging.info(get_testcase("test2.xmind", 2, 0))
     for i in xrange(5):
         actions = get_testcase("test2.xmind", 2, i)
-        print 'actions', actions
+        logging.info('actions  {}'.format(actions))

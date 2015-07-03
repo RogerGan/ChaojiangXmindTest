@@ -1,0 +1,6 @@
+Fri, 03 Jul 2015 14:47:26 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/4ed7b47f-86cc-4bd4-a395-187dad0f3098/element {"using": "name", "sessionId": "4ed7b47f-86cc-4bd4-a395-187dad0f3098", "value": "\u70ed\u70b9"}
+Fri, 03 Jul 2015 14:47:27 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 14:47:27 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/4ed7b47f-86cc-4bd4-a395-187dad0f3098/element/0/click {"sessionId": "4ed7b47f-86cc-4bd4-a395-187dad0f3098", "id": "0"}
+Fri, 03 Jul 2015 14:47:28 remote_connection.py[line:458] DEBUG Finished Request
+Fri, 03 Jul 2015 14:47:28 remote_connection.py[line:363] DEBUG POST http://127.0.0.1:4723/wd/hub/session/4ed7b47f-86cc-4bd4-a395-187dad0f3098/element {"using": "name", "sessionId": "4ed7b47f-86cc-4bd4-a395-187dad0f3098", "value": "\u53d1\u73b0"}
+Fri, 03 Jul 2015 14:47:30 remote_connection.py[line:458] DEBUG Finished Request

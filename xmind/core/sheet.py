@@ -86,7 +86,6 @@ class SheetElement(WorkbookMixinElement):
         Remove a relationship between two different topics
         """
         rels = self._getRelationships()
-
         if not rels:
             return
 
