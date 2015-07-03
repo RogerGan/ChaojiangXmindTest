@@ -130,7 +130,6 @@ class SheetElement(WorkbookMixinElement):
 
     def updateModifiedTime(self):
         super(SheetElement, self).updateModifiedTime()
-
         workbook = self.getParent()
         if workbook:
             workbook.updateModifiedTime()

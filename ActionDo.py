@@ -46,7 +46,6 @@ class ActionDo():
         self._driver.lock()
 
     def ClickWeb(self, topic):
-
         action = topic.split(':')[0] #action :表示自动化测试的动作
         element = topic.split(':')[1:][0]   #element:动作的元素
         print 'action======', action, element
